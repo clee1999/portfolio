@@ -16,7 +16,8 @@ import { ProjetsComponent } from "./main/projets/projets.component";
 import { ContactsComponent } from "./main/contacts/contacts.component";
 
 import { NgwWowModule } from "ngx-wow";
-//import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
+import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
+import { TypingAnimationModule } from "angular-typing-animation";
 @NgModule({
   declarations: [
     AppComponent,
@@ -34,8 +35,9 @@ import { NgwWowModule } from "ngx-wow";
   imports: [
     BrowserModule,
     AppRoutingModule,
-    // BrowserAnimationsModule,
-    NgwWowModule
+    BrowserAnimationsModule,
+    NgwWowModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
