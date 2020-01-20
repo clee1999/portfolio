@@ -1,0 +1,29 @@
+@import "../../sharedStyles/colors.scss";
+
+h4 {
+  text-transform: initial;
+}
+
+ul {
+  margin: 10% 0 10% 0;
+  li {
+    margin: 6% 0 6% 0;
+  }
+}
+
+.arrow {
+  font-size: 30px;
+  color: $BeigeDarker2;
+}
+
+.rs {
+  font-size: 60px;
+  color: $RoseDark;
+  a {
+    text-decoration: none;
+    color: $RoseDark;
+  }
+  a:hover {
+    color: $RoseDark2;
+  }
+}

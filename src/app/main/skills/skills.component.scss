@@ -1,0 +1,28 @@
+@import "../../sharedStyles/colors.scss";
+
+h4 {
+  text-transform: initial;
+}
+
+.white-bloc {
+  width: 350px;
+  height: 250px;
+  background: $White;
+  padding: 30px;
+  h4 {
+    color: $Rose;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .white-bloc {
+    padding: 1px !important;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .white-bloc {
+    padding: 20px !important;
+    margin-bottom: 20px;
+  }
+}

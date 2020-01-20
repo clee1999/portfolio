@@ -1,0 +1,22 @@
+@import "../sharedStyles/colors.scss";
+
+ul {
+  position: fixed;
+  top: 350px;
+  right: 6px;
+  li {
+    margin-bottom: 70%;
+  }
+}
+
+.rs {
+  font-size: 22px;
+  color: $RoseDark;
+  a {
+    text-decoration: none;
+    color: $BeigeDarker;
+  }
+  a:hover {
+    color: $BeigeDarker2;
+  }
+}
