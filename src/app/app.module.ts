@@ -8,7 +8,7 @@ import { MainComponent } from "./main/main.component";
 import { NavbarComponent } from "./navbar/navbar.component";
 import { HeaderComponent } from "./header/header.component";
 
-import { TypingAnimationDirective } from "angular-typing-animation";
+import { TypingAnimationModule } from "../../node_modules/angular-typing-animation/typing-animation.module";
 import { AboutmeComponent } from "./main/aboutme/aboutme.component";
 import { SkillsComponent } from "./main/skills/skills.component";
 import { ParcoursComponent } from "./main/parcours/parcours.component";
@@ -17,7 +17,7 @@ import { ContactsComponent } from "./main/contacts/contacts.component";
 
 import { NgwWowModule } from "ngx-wow";
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
-import { TypingAnimationModule } from "angular-typing-animation";
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,7 +25,6 @@ import { TypingAnimationModule } from "angular-typing-animation";
     MainComponent,
     NavbarComponent,
     HeaderComponent,
-    TypingAnimationDirective,
     AboutmeComponent,
     SkillsComponent,
     ParcoursComponent,
@@ -37,7 +36,7 @@ import { TypingAnimationModule } from "angular-typing-animation";
     AppRoutingModule,
     BrowserAnimationsModule,
     NgwWowModule,
-    BrowserAnimationsModule
+    TypingAnimationModule
   ],
   providers: [],
   bootstrap: [AppComponent]
