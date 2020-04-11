@@ -23,3 +23,9 @@ span {
     color: $BeigeDarker2;
   }
 }
+
+@media (max-width: 575.98px) {
+  span {
+    margin: 10px;
+  }
+}
